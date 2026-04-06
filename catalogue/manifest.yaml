@@ -40,7 +40,7 @@ spec:
       containers:
       - name: catalogue
         image: siddhartha1122/catalogue:1.4.0
-        imagePullPolicy: Always
+        imagePullPolicy: Always # safe to pull everytime, there may be images with same version rebuilt and pushed
         resources:
           requests:
             cpu: "100m"
