@@ -40,6 +40,7 @@ spec:
       containers:
       - name: catalogue
         image: siddhartha1122/catalogue:1.4.0
+        imagePullPolicy: Always
         resources:
           requests:
             cpu: "100m"
