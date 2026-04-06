@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: siddhartha1122/catalogue:1.0.0
+        image: siddhartha1122/catalogue:1.4.0
         resources:
           requests:
             cpu: "100m"
